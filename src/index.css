@@ -7,6 +7,15 @@
     src: url("./assets/font/DegularDisplayDemo-Semibold.otf") format("truetype");
 }
 
+:root {
+    --primary-brand-color: #ff5733;
+    --secondary-brand-color: #ff6c37;
+    --primary-nav-font-color: #6b6b6b;
+    --secondary-nav-font-color: #212121;
+}
+
+/* bg-[linear-gradient(9.34deg,#140B1E_0%,#140B1E_70%,#491591_85%,#822C66_92%,#E0531F_100%)] */
+
 .font-ibm-pm {
     font-family: "IBM Plex Mono", monospace;
 }
