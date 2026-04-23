@@ -10,7 +10,7 @@ const Hero = () => {
     };
 
     return (
-        <section className="relative w-full pt-30 min-h-screen pb-10 flex flex-col items-center justify-center text-center overflow-hidden">
+        <section className="relative w-full pt-30 min-h-screen pb-30 flex flex-col items-center justify-center text-center overflow-hidden bg-[linear-gradient(9.34deg,#140B1E_0%,#140B1E_70%,#491591_85%,#822C66_92%,#E0531F_100%)]">
             <div className="relative z-10 max-w-3xl px-4 flex flex-col items-center gap-6">
                 <img src={starburst} alt="Starburst" className="w-4 h-4" />
                 <span className="text-xl font-ibm-pm mb-3 text-white font-light uppercase">
@@ -39,7 +39,6 @@ const Hero = () => {
                     <video
                         ref={videoRef}
                         src={postmanVideo}
-                        loop
                         muted
                         className="w-full opacity-100"
                     />
